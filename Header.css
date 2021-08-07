@@ -1,11 +1,15 @@
+LogoContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
 OSFText {
-    font-family: ﻿Lato-ExtraBold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, serif;
+    font-family: Lato-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
     font-size: 31.65455pt;
     color: rgba(1, 24, 71, 255);
     text-align: left;
 }
 OSFBottomText {
-    font-family: ﻿Lato-ExtraBold, ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, serif;
+    font-family: Lato-ExtraBold, Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
     font-size: 18pt;
     color: rgba(132, 188, 34, 255);
     text-align: left;
