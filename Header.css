@@ -1,17 +1,40 @@
-.LogoContainer {
-    display: flex;
-    flex-wrap: nowrap;
+.content {
+    max-width: 1280px;
+    margin: auto;
 }
-.OSFText {
-    font-family: Lato-ExtraBold, AdobeInvisFont, MyriadPro-Regular, serif;
-    font-size: 31.65455pt;
-    color: rgba(1, 24, 71, 255);
-    text-align: left;
+
+.dropbtn {
+    background-color: white;
+    color: #262A32;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
 }
-.OSFBottomText {
-    font-family: Lato-ExtraBold, Lato-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
-    font-size: 18pt;
-    color: rgba(132, 188, 34, 255);
-    text-align: left;
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #262A32; color: white;}
 
