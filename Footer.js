@@ -1,2 +1,3 @@
-const FooterDate = new Date();
-const FullYear = FooterDate.getFullYear();
+let FooterDate = new Date();
+let FullYear = FooterDate.getFullYear();
+document.getElementById("CurrentYear").innerHTML = FullYear;
