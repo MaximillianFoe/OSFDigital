@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./OSF_Font.ttf");
+}
+
 .FooterScreen {
     max-width: 1280px;
     margin: auto;
@@ -6,7 +11,7 @@
 .FooterText {
     opacity: 1;
     color: #45413E;
-    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
+    font-family: "Lato-Regular";
     font-size: 13px;
     text-align: left;
 }
@@ -14,7 +19,7 @@
 .FooterBoldText {
     opacity: 1;
     color: #333333;
-    font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular, serif;
+    font-family: "Lato-Regular";
     font-size: 29px;
     text-align: left;
 }
@@ -22,8 +27,7 @@
 .FooterLowOpacity {
     opacity: 0.7019607843137254;
     color: #45413E;
-    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
+    font-family: "Lato-Regular";
     font-size: 13px;
     text-align: left;
-
 }

@@ -1,4 +1,21 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./OSF_Font.ttf");
+}
+
 .HeaderScreen {
     max-width: 1280px;
     margin: auto;
+}
+
+.HeaderText {
+    opacity: 1;
+    color: #FFFFFF;
+    font-family: "Lato-Regular";
+    font-size: 24px;
+}
+
+.HeaderMargin {
+    vertical-align: middle;
+    margin: 6px 55px;
 }
