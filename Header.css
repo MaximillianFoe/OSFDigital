@@ -19,3 +19,9 @@
     vertical-align: middle;
     margin: 6px 55px;
 }
+
+.LoginForm {
+    display: none;
+    max-width: 320px;
+    margin: auto;
+}

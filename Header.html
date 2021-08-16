@@ -57,7 +57,7 @@
                     </li>
 
                     <li class="nav-item p-2">
-                        <img alt="Heart" src="Images/Heart.png">
+                        <a onclick="LoginClick()"><img alt="Heart" src="Images/Heart.png"></a>
                     </li>
 
                     <li class="nav-item p-2">
@@ -68,6 +68,21 @@
             </div>
         </nav>
     </div>
+
+    <div class="LoginForm" id="LoginForm">
+        <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label><p class="text-end">forgot password.</p>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="text-center"><button type="submit" class="btn btn-success">Login</button></div>
+    </form>
+    </div>
+
 </div>
 </body>
 </html>
