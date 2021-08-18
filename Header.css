@@ -5,19 +5,19 @@
 
 .HeaderScreen {
     max-width: 1280px;
-    margin: 13px auto auto;
+    margin: auto;
 }
 
 .HeaderText {
     opacity: 1;
     color: #FFFFFF;
     font-family: "Lato-Regular";
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .HeaderMargin {
     vertical-align: middle;
-    margin: 6px 55px;
+    margin: 12px 55px;
 }
 
 .LoginForm {

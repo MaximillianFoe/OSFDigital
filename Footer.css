@@ -5,7 +5,7 @@
 
 .FooterScreen {
     max-width: 1280px;
-    margin: 29px auto auto;
+    margin: auto;
 }
 
 .FooterText {
@@ -53,4 +53,9 @@
     float: right;
     padding: 10px;
     cursor: pointer;
+}
+
+.UpperFooter {
+    max-width: 1280px;
+    margin: 29px auto auto;
 }
