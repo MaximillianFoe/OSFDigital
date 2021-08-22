@@ -5,3 +5,51 @@
 .Products {
     background-color: #262A32;
 }
+
+.BigWhiteText {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.SmalllerText {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.TextOverImage {
+    position: absolute;
+}
+
+.PopularItems {
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.PopularItems:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #3C4047;
+    width: 230px;
+}
+.PopularItems:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #3C4047;
+    width: 230px;
+}
+
+
+
