@@ -3,6 +3,17 @@
     src: url("./OSF_Font.ttf");
 }
 
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("./OSF_Lato_Bold.ttf");
+}
+
+.BoldOops {
+    color: #84BC22;
+    font-family: "Lato-Bold";
+    font-size: 113px;
+}
+
 a {
     color: #84BC22;
     text-decoration: none;
