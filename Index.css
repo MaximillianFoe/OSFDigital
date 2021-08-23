@@ -14,6 +14,10 @@
     text-align: left;
 }
 
+.SummerText {
+    font-size: 13px;
+}
+
 .SmalllerText {
     font-size: 16px;
     color: #FFFFFF;
@@ -41,6 +45,7 @@
     background-color: #3C4047;
     width: 230px;
 }
+
 .PopularItems:before {
     display: inline-block;
     margin: 0 20px 8px 0;
@@ -50,6 +55,30 @@
     background-color: #3C4047;
     width: 230px;
 }
+
+.ProductCard:hover {
+    opacity: 0.8;
+    background-color: #38C28A;
+}
+
+.FeaturedLogo {
+    font-size: 48px;
+    font-family: "Lato";
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.FeaturedText {
+    font-size: 18px;
+    font-family: "Lato";
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
 
 
 

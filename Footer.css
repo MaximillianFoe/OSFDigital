@@ -25,7 +25,7 @@
 }
 
 .FooterLowOpacity {
-    opacity: 0.7019607843137254;
+    opacity: 0.8;
     color: #45413E;
     font-family: "Lato-Regular";
     font-size: 13px;
@@ -55,7 +55,10 @@
     cursor: pointer;
 }
 
-.UpperFooter {
-    max-width: 1280px;
-    margin: 29px auto auto;
+.SocialButtons {
+    opacity: 0.3;
+    background-color: #FFFFFF;
+    width: 8px;
+    height: 17px;
 }
+
