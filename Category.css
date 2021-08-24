@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./OSF_Font.ttf");
+}
+
+@font-face {
+    font-family: "Lato-ExtraBold";
+    src: url("./OSF_Lato_ExtraBold.ttf");
+}
+
+.CategoryScreen {
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.TextScreen {
+    text-align: center;
+    opacity: 1;
+    color: #5C5855;
+    font-family: "Lato-Regular";
+    font-size: 13px;
+    background-color: #F1EDEA;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+a {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+a:link {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+.MiddleLineText
+{
+    color: #45413E;
+    font-family: "Lato-ExtraBold";
+    font-size: 48px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.MiddleLineText:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #FFFFFF;
+    width: 230px;
+}
+
+.MiddleLineText:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #FFFFFF;
+    width: 230px;
+}
