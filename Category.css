@@ -12,6 +12,20 @@
     max-width: 1280px;
     margin: auto;
     text-align: center;
+    color: #5C5855;
+    background-color: #F1EDEA;
+}
+
+.SameRowFilter {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.FilterScreen {
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .TextScreen {
