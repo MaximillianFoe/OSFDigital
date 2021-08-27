@@ -3,6 +3,11 @@
     src: url("./OSF_Font.ttf");
 }
 
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("./OSF_Lato_Bold.ttf");
+}
+
 .HeaderScreen {
     max-width: 1280px;
     margin: auto;
@@ -24,4 +29,56 @@
     display: none;
     max-width: 320px;
     margin: auto;
+}
+
+.navbar .MegaMenu {
+    padding: 1rem;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.DropdownCenterImage {
+    text-align: center;
+}
+
+.DropdownBoldText {
+    font-size: 18px;
+    font-family: "Lato-Bold";
+    line-height: 1.2;
+    text-align: left;
+}
+
+.DropdownSmallerText {
+    font-size: 16px;
+    font-family: "Lato-Regular";
+    line-height: 1.938;
+}
+
+
+@media all and (min-width: 768px) {
+    .navbar .HasMegaMenu {
+        position: static!important;
+    }
+
+    .navbar .MegaMenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+        background-color: #262A32;
+        opacity: 1;
+        color: #FFFFFF;
+        font-family: "Lato-Regular";
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 768px){
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
 }
