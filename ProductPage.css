@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./OSF_Font.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("./OSF_Lato_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-ExtraBold";
+    src: url("./OSF_Lato_ExtraBold.ttf");
+}
+
+.ProductPage {
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.ScreenColor {
+    opacity: 1;
+    background-color: #F1EDEA;
+}
+
+.TextScreen {
+    text-align: center;
+    opacity: 1;
+    color: #5C5855;
+    font-family: "Lato-Regular";
+    font-size: 13px;
+    background-color: #F1EDEA;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+a {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+a:link {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #84BC22;
+    text-decoration: none;
+}
+
+.PageTitle {
+    color: #45413E;
+    font-family: "Lato-ExtraBold";
+    font-size: 48px;
+    padding-top: 8px;
+}
+
+.MiddleLineText
+{
+    color: #45413E;
+    font-family: "Lato-ExtraBold";
+    font-size: 48px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.PageTitle:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 2px;
+    content: "";
+    text-shadow: none;
+    background-color: #E5E2DFFF;
+    width: 230px;
+}
+
+.PageTitle:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 2px;
+    content: "";
+    text-shadow: none;
+    background-color: #E5E2DFFF;
+    width: 230px;
+}
+
+.SmallScreenColor {
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
