@@ -93,3 +93,13 @@ a:visited {
     margin-right: 55px;
 }
 
+.PriceText {
+    font-size: 48px;
+    font-family: "Lato-Bold";
+    color: #45413EFF;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+

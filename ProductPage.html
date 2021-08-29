@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>OSF Academy | Product Page</title>
     <link href="ProductPage.css" rel="stylesheet">
+    <script src="ProductPage.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
@@ -26,10 +27,9 @@
             Cardigan
             <div class="PageTitle">Ruffle Front V-Neck Cardigan</div>
         </div>
-    </div>
     <div class="SmallScreenColor">
         <div class="container row">
-            <div class="carousel slide col" data-bs-ride="carousel" id="carouselExampleIndicators">
+            <div class="carousel slide col mt-3" data-bs-ride="carousel" id="carouselExampleIndicators">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img alt="" src="./Images/PG.10216885.JJ169XX.PZ.jpg">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col mt-3">
                 <div aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
                      data-bs-target="#carouselExampleIndicators"><img alt="" src="./Images/PG.10216885.JJ169XX.PZ-Thumbnail.jpg"></div>
                 <div aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators"><img
@@ -55,8 +55,19 @@
                 <div aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators"><img
                         alt="" src="./Images/PG.10216885.JJ8UTXX.PZ-Thumbnail.jpg"></div>
             </div>
+            <div class="col mt-3">
+                <p class="PriceText">$299.99</p>
+                <select class="form-select" aria-label="ColorSelect">
+                    <option selected>Dark Gray</option>
+                    <option value="1">OSF Green</option>
+                    <option value="2">Purple</option>
+                    <option value="3">White</option>
+                </select>
+
+            </div>
         </div>
     </div>
+</div>
 </div>
 <div id="footer"></div>
 </body>
