@@ -148,12 +148,16 @@
                     </div>
                     <div class="SmallLoginText mb-3">
                         <label for="passwordForm" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="passwordForm">
+                        <div class="passwordFlex">
+                            <input type="password" class="form-control inputField" id="passwordForm">
+                            <img class="passwordToggle" src="./Images/PasswordToggle.png" onclick="showPassword()" alt="">
+                        </div>
                         <small class="text-muted">
-                            Must be 8-20 characters long.
+                            At least 6 characters length, contain 1 numeric, 1 uppercase letter, 1 special character.
                         </small>
                     </div>
-                    <button type="button" class="btn align-content-center">Login</button>
+                    <button type="button" class="btn align-content-center mb-2">Login</button>
+                    <p class="BottomLogin mb-2">I don't have an account</p>
                 </div>
             </div>
         </div>

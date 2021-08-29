@@ -8,6 +8,32 @@
     src: url("./OSF_Lato_Bold.ttf");
 }
 
+.passwordToggle {
+    right: 25px;
+    position: absolute;
+    align-self: center;
+    width: 25px;
+    height: 14px;
+}
+
+
+.passwordFlex {
+    display: flex;
+}
+
+.inputField {
+    flex: 1;
+}
+
+.BottomLogin {
+    font-size: 12px;
+    font-family: "Lato";
+    color: #84BC22FF;
+    line-height: 3.583;
+    text-align: center;
+}
+
+
 .modal-body > button {
     width: 170px;
     border-radius: 18px;
