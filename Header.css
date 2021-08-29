@@ -8,6 +8,29 @@
     src: url("./OSF_Lato_Bold.ttf");
 }
 
+.modal-body > button {
+    width: 170px;
+    border-radius: 18px;
+    color: #FFFFFF;
+    background-color: #84BC22;
+}
+
+.SignText {
+    font-size: 30px;
+    font-family: "Lato-Bold";
+    color: #45413EFF;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.SmallLoginText {
+    font-size: 14px;
+    font-family: "Lato";
+    color: #45413EFF;
+    line-height: 1.857;
+    text-align: left;
+}
+
 .HeaderScreen {
     max-width: 1280px;
     margin: auto;
@@ -23,12 +46,6 @@
 .HeaderMargin {
     vertical-align: middle;
     margin: 12px 55px;
-}
-
-.LoginForm {
-    display: none;
-    max-width: 320px;
-    margin: auto;
 }
 
 .navbar .MegaMenu {

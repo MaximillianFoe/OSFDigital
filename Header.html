@@ -118,7 +118,7 @@
                     </li>
 
                     <li class="nav-item mx-4">
-                        <a href="" onclick="LoginClick()"><img alt="User" src="Images/User.png"></a>
+                        <img data-bs-toggle="modal" data-bs-target="#LoginForm" alt="User" src="Images/User.png">
                     </li>
 
                     <li class="nav-item mx-4">
@@ -134,23 +134,29 @@
         </nav>
     </div>
 
-    <div class="LoginForm" id="LoginForm">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1"
-                       placeholder="Enter email"
-                       type="email">
+    <div class="modal" tabindex="-1" id="LoginForm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="SignText text-center mt-4">Sign in</p>
+                    <div class="SmallLoginText mb-3">
+                        <label for="emailForm" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp">
+                        <small class="text-muted">
+                            We'll never share your email with anyone else.
+                        </small>
+                    </div>
+                    <div class="SmallLoginText mb-3">
+                        <label for="passwordForm" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="passwordForm">
+                        <small class="text-muted">
+                            Must be 8-20 characters long.
+                        </small>
+                    </div>
+                    <button type="button" class="btn align-content-center">Login</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <p class="text-end">forgot password.</p>
-                <input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
-            </div>
-            <div class="text-center">
-                <button class="btn btn-success" type="submit">Login</button>
-            </div>
-        </form>
+        </div>
     </div>
 
 </div>
