@@ -7,6 +7,20 @@
     background-color: #262A32;
 }
 
+#PlusHoverButton {
+    display: none;
+    top: 96px;
+    left: 24px;
+    position: absolute;
+}
+
+#HeartHoverButton {
+    display: none;
+    top: 96px;
+    right: 24px;
+    position: absolute;
+}
+
 #LoadMoreButton {
     width: 264px;
     height: 38px;
@@ -68,9 +82,16 @@
     width: 230px;
 }
 
+.ProductCard:hover > .card-body > #PlusHoverButton {
+    display: block;
+}
+
+.ProductCard:hover > .card-body > #HeartHoverButton {
+    display: block;
+}
+
 .ProductCard:hover {
-    opacity: 0.8;
-    background-color: #38C28A;
+    background-color: #34C97B;
 }
 
 .FeaturedLogo {
