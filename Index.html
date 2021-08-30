@@ -17,8 +17,8 @@
         });
     </script>
     <script>
-        $(document).ready(function(){
-            $.getJSON("Products.json", function(data){
+        $(document).ready(function () {
+            $.getJSON("Products.json", function (data) {
                 console.log("Product Information is Collected from JSON file!");
                 $('#Product1_Picture').attr('src', data.Product1_Picture);
                 $("#Product1_Title").text(data.Product1_Title);
@@ -59,7 +59,7 @@
                 $('#Product10_Picture').attr('src', data.Product10_Picture);
                 $("#Product10_Title").text(data.Product10_Title);
                 $("#Product10_Price").text(data.Product10_Price);
-            }).fail(function(){
+            }).fail(function () {
                 console.log("An error has occurred while trying to collect Product Information from JSON file!");
             });
         });
@@ -137,10 +137,10 @@
                 </div>
             </div>
             <div class="col-3 text-center">
-                <img class="img-fluid pb-3" src="./Images/SummerSale.png" alt="">
+                <img alt="" class="img-fluid pb-3" src="./Images/SummerSale.png">
                 Follow us on Facebook
-                <p class="SummerText pt-2">Sed ut perspiciatis unde omnis iste <br> natus error sit  voluptatem</p>
-                <a href="#Facebook"><img class="img-fluid" src="./Images/FacebookFollow.png" alt=""></a>
+                <p class="SummerText pt-2">Sed ut perspiciatis unde omnis iste <br> natus error sit voluptatem</p>
+                <a href="#Facebook"><img alt="" class="img-fluid" src="./Images/FacebookFollow.png"></a>
             </div>
         </div>
     </div>
@@ -149,9 +149,9 @@
         <div class="row row-cols-1 row-cols-md-4 mx-5">
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
-                    <img id="Product1_Picture" alt="" class="card-img-top">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                    <img alt="" class="card-img-top" id="Product1_Picture">
                     <div class="card-body">
                         <h5 class="card-title" id="Product1_Title"></h5>
                         <p class="card-text" id="Product1_Price"></p>
@@ -160,9 +160,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product2_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product2_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product2_Title"></h5>
                         <p class="card-text" id="Product2_Price"></p>
@@ -171,9 +171,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product3_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product3_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product3_Title"></h5>
                         <p class="card-text" id="Product3_Price"></p>
@@ -182,9 +182,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product4_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product4_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product4_Title"></h5>
                         <p class="card-text" id="Product4_Price"></p>
@@ -193,9 +193,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product5_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product5_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product5_Title"></h5>
                         <p class="card-text" id="Product5_Price"></p>
@@ -204,20 +204,21 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product6_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product6_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product6_Title"></h5>
+                        <br>
                         <p class="card-text" id="Product6_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product7_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product7_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product7_Title"></h5>
                         <p class="card-text" id="Product7_Price"></p>
@@ -226,15 +227,17 @@
             </div>
         </div>
         <div class="text-center pt-3">
-        <button id="LoadMoreButton" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#LoadMore" aria-expanded="false" aria-controls="LoadMore">
-            Load More
-        </button></div>
-        <div id="LoadMore" class="row row-cols-1 row-cols-md-4 mx-5 collapse">
+            <button aria-controls="LoadMore" aria-expanded="false" class="btn" data-bs-target="#LoadMore" data-bs-toggle="collapse"
+                    id="LoadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 mx-5 collapse" id="LoadMore">
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product8_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product8_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product8_Title"></h5>
                         <p class="card-text" id="Product8_Price"></p>
@@ -243,9 +246,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product9_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product9_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product9_Title"></h5>
                         <p class="card-text" id="Product9_Price"></p>
@@ -254,9 +257,9 @@
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img id="Product10_Picture" alt="" class="card-img-top">
-                    <img class="PlusHoverButton" src="./Images/PlusButton.png" alt="">
-                    <img class="HeartHoverButton" src="./Images/HeartButton.png" alt="">
+                    <img alt="" class="card-img-top" id="Product10_Picture">
+                    <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                    <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
                     <div class="card-body">
                         <h5 class="card-title" id="Product10_Title"></h5>
                         <p class="card-text" id="Product10_Price"></p>
@@ -270,41 +273,108 @@
     <div class="Products pb-5">
         <div class="FeaturedLogo pt-5">Featured Products</div>
         <div class="FeaturedText">Unde omnis iste natus error sit voluptatem</div>
-        <div class="PopularItems pt-3 pb-4"><img src="./Images/Featured_Icon.png" alt=""></div>
-        <div class="row row-cols-1 row-cols-md-4 mx-5">
-            <div class="col mt-3">
-                <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Featured_1.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
-                        <p class="card-text">Awesome</p>
+        <div class="FeatureProducts pt-3 pb-4">
+            <img alt="" id="LeftArrow" src="./Images/LeftArrow.png" data-bs-target="#FeaturedSlider" data-bs-slide="prev">
+            <img alt="" src="./Images/Featured_Icon.png">
+            <img alt="" id="RightArrow" src="./Images/RightArrow.png" data-bs-target="#FeaturedSlider" data-bs-slide="next">
+        </div>
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="FeaturedSlider">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-4 mx-5">
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_1.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
+                                    <p class="card-text">Awesome</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_2.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
+                                    <p class="card-text">Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_3.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
+                                    <p class="card-text">Awesome</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_4.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hezy Theme</h5>
+                                    <br>
+                                    <p class="card-text">Marketing</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col mt-3">
-                <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Featured_2.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
-                        <p class="card-text">Marketing</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mt-3">
-                <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Featured_3.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Kristina Dam Oak Table With White Marble</h5>
-                        <p class="card-text">Awesome</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mt-3">
-                <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Featured_4.png">
-                    <div class="card-body">
-                        <h5 class="card-title">Hezy Theme</h5>
-                        <p class="card-text">Marketing</p>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-4 mx-5">
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_2.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">OSF.Digital Test #1</h5>
+                                    <p class="card-text">Awesome</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_1.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">OSF.Digital Test #2</h5>
+                                    <p class="card-text">Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_4.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">OSF.Digital Test #3</h5>
+                                    <p class="card-text">Awesome</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="ProductCard card text-center h-100">
+                                <img alt="" class="card-img-top" src="./Images/Featured_3.png">
+                                <img alt="" class="PlusHoverButton" src="./Images/PlusButton.png">
+                                <img alt="" class="HeartHoverButton" src="./Images/HeartButton.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">OSF.Digital Test #4</h5>
+                                    <p class="card-text">Marketing</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

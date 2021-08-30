@@ -65,21 +65,21 @@
 .PopularItems:after {
     display: inline-block;
     margin: 0 0 8px 20px;
-    height: 3px;
+    height: 2px;
     content: "";
     text-shadow: none;
-    background-color: #3C4047;
-    width: 230px;
+    background-color: #3A3E45;
+    width: 33%;
 }
 
 .PopularItems:before {
     display: inline-block;
     margin: 0 20px 8px 0;
-    height: 3px;
+    height: 2px;
     content: "";
     text-shadow: none;
-    background-color: #3C4047;
-    width: 230px;
+    background-color: #3A3E45;
+    width: 33%;
 }
 
 .ProductCard:hover > .card-body {
@@ -119,6 +119,21 @@
     line-height: 1.2;
     text-align: center;
 }
+
+#LeftArrow {
+    padding-right: 250px;
+}
+
+#RightArrow {
+    padding-left: 250px;
+}
+
+.FeatureProducts {
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: center;
+}
+
 
 
 
