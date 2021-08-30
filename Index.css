@@ -7,6 +7,17 @@
     background-color: #262A32;
 }
 
+#LoadMoreButton {
+    width: 264px;
+    height: 38px;
+    border-radius: 24px;
+    border-width: 2px;
+    color: #E4DED3;
+    border-color: #E4DED3;
+    background-color: transparent;
+
+}
+
 .BigWhiteText {
     font-size: 48px;
     color: #FFFFFF;

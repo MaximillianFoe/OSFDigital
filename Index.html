@@ -16,6 +16,54 @@
             $("#footer").load("Footer.html");
         });
     </script>
+    <script>
+        $(document).ready(function(){
+            $.getJSON("Products.json", function(data){
+                console.log("Product Information is Collected from JSON file!");
+                $('#Product1_Picture').attr('src', data.Product1_Picture);
+                $("#Product1_Title").text(data.Product1_Title);
+                $("#Product1_Price").text(data.Product1_Price);
+
+                $('#Product2_Picture').attr('src', data.Product2_Picture);
+                $("#Product2_Title").text(data.Product2_Title);
+                $("#Product2_Price").text(data.Product2_Price);
+
+                $('#Product3_Picture').attr('src', data.Product3_Picture);
+                $("#Product3_Title").text(data.Product3_Title);
+                $("#Product3_Price").text(data.Product3_Price);
+
+                $('#Product4_Picture').attr('src', data.Product4_Picture);
+                $("#Product4_Title").text(data.Product4_Title);
+                $("#Product4_Price").text(data.Product4_Price);
+
+                $('#Product5_Picture').attr('src', data.Product5_Picture);
+                $("#Product5_Title").text(data.Product5_Title);
+                $("#Product5_Price").text(data.Product5_Price);
+
+                $('#Product6_Picture').attr('src', data.Product6_Picture);
+                $("#Product6_Title").text(data.Product6_Title);
+                $("#Product6_Price").text(data.Product6_Price);
+
+                $('#Product7_Picture').attr('src', data.Product7_Picture);
+                $("#Product7_Title").text(data.Product7_Title);
+                $("#Product7_Price").text(data.Product7_Price);
+
+                $('#Product8_Picture').attr('src', data.Product8_Picture);
+                $("#Product8_Title").text(data.Product8_Title);
+                $("#Product8_Price").text(data.Product8_Price);
+
+                $('#Product9_Picture').attr('src', data.Product9_Picture);
+                $("#Product9_Title").text(data.Product9_Title);
+                $("#Product9_Price").text(data.Product9_Price);
+
+                $('#Product10_Picture').attr('src', data.Product10_Picture);
+                $("#Product10_Title").text(data.Product10_Title);
+                $("#Product10_Price").text(data.Product10_Price);
+            }).fail(function(){
+                console.log("An error has occurred while trying to collect Product Information from JSON file!");
+            });
+        });
+    </script>
 </head>
 <body>
 <div id="header"></div>
@@ -101,69 +149,102 @@
         <div class="row row-cols-1 row-cols-md-4 mx-5">
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_1.png">
+                    <img id="Product1_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Kristina Dam Oak Table With White Marble Top</h5>
-                        <p class="card-text">$ 799.55</p>
+                        <h5 class="card-title" id="Product1_Title"></h5>
+                        <p class="card-text" id="Product1_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_2.png">
+                    <img id="Product2_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Hay - About A Lounge Chair AAL 93</h5>
-                        <p class="card-text">$ 659.55</p>
+                        <h5 class="card-title" id="Product2_Title"></h5>
+                        <p class="card-text" id="Product2_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_3.png">
+                    <img id="Product3_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Activate Facial Mask and Charcoal Soap</h5>
-                        <p class="card-text">$ 129.55</p>
+                        <h5 class="card-title" id="Product3_Title"></h5>
+                        <p class="card-text" id="Product3_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_4.png">
+                    <img id="Product4_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Cocktail Table Walnut | YES</h5>
-                        <p class="card-text">$ 299.99</p>
+                        <h5 class="card-title" id="Product4_Title"></h5>
+                        <p class="card-text" id="Product4_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_5.png">
+                    <img id="Product5_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Hay - About A Lounge Chair AAL 93</h5>
-                        <p class="card-text">$ 659.55</p>
+                        <h5 class="card-title" id="Product5_Title"></h5>
+                        <p class="card-text" id="Product5_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_6.png">
+                    <img id="Product6_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Tory Desk Calendar</h5>
-                        <p class="card-text">$ 410.99</p>
+                        <h5 class="card-title" id="Product6_Title"></h5>
+                        <p class="card-text" id="Product6_Price"></p>
                     </div>
                 </div>
             </div>
             <div class="col mt-3">
                 <div class="ProductCard card text-center h-100">
-                    <img alt="" class="card-img-top" src="./Images/Popular_7.png">
+                    <img id="Product7_Picture" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">CH445 Wing Chair on SUITE NY</h5>
-                        <p class="card-text">$ 330.55</p>
+                        <h5 class="card-title" id="Product7_Title"></h5>
+                        <p class="card-text" id="Product7_Price"></p>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
+        <div class="text-center pt-3">
+        <button id="LoadMoreButton" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#LoadMore" aria-expanded="false" aria-controls="LoadMore">
+            Load More
+        </button></div>
+        <div id="LoadMore" class="row row-cols-1 row-cols-md-4 mx-5 collapse">
+            <div class="col mt-3">
+                <div class="ProductCard card text-center h-100">
+                    <img id="Product8_Picture" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" id="Product8_Title"></h5>
+                        <p class="card-text" id="Product8_Price"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="ProductCard card text-center h-100">
+                    <img id="Product9_Picture" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" id="Product9_Title"></h5>
+                        <p class="card-text" id="Product9_Price"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="ProductCard card text-center h-100">
+                    <img id="Product10_Picture" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title" id="Product10_Title"></h5>
+                        <p class="card-text" id="Product10_Price"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
     </div>
     <img alt="Banner OSF Theme" class="mw-100" src="./Images/BannerOSFTheme.png">
     <div class="Products pb-5">
