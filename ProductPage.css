@@ -91,6 +91,8 @@ a:visited {
     background-color: #FFFFFF;
     margin-left: 55px;
     margin-right: 55px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .PriceText {
@@ -142,6 +144,92 @@ a:visited {
     line-height: 1.5;
     text-align: left;
 }
+
+.SocialButtons {
+    opacity: 0.3;
+    background-color: #FFFFFF;
+    width: 8px;
+    height: 17px;
+}
+
+#ShareText {
+    opacity: 0.3;
+    font-size: 14px;
+    font-family: "Lato";
+    color: #45413EFF;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.CenterFlexMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AdditionalTabs {
+    font-family: "Lato";
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFFFFF;
+    background-color: #262A33;
+    height: 300px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#nav-tab > button {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    align-content: center;
+    margin-left: 24px;
+    font-size: 24px;
+    font-family: "Lato"
+    color: #FFFFFF;
+    background-color: #262A33;
+    width: 256px;
+    height: 72px;
+    line-height: 1.2;
+}
+
+.ProductsTitle {
+    font-size: 36px;
+    font-family: "Lato";
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ProductsTitle:after {
+    opacity: 0.2;
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #000000;
+    width: 230px;
+}
+
+.ProductsTitle:before {
+    opacity: 0.2;
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: "";
+    text-shadow: none;
+    background-color: #000000;
+    width: 230px;
+}
+
+
+
+
+
 
 
 

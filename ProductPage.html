@@ -66,12 +66,13 @@
                         <option value="3">White</option>
                     </select>
                     <label for="quantityField"></label><input class="mt-3" data-bind="value:quantityField"
-                                                              id="quantityField" min="1" max="9"
+                                                              id="quantityField" max="9" min="1"
                                                               step="1" type="number"/>
                     <button class="btn align-content-center ms-3" type="button">Add To Card</button>
-                    <p class="mt-3" id="readMoreText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo.
-                    Nemo enim ipsam voluptatem quia voluptas <span id="readDots">...</span><span id="readMore">
+                    <p class="mt-3" id="readMoreText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo.
+                        Nemo enim ipsam voluptatem quia voluptas <span id="readDots">...</span><span id="readMore">
                     sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
                     sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                     adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
@@ -79,10 +80,101 @@
                     laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
                     ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
                             voluptas nulla pariatur?</span></p>
-                    <p></p><span id="readMoreSpan" onclick="readMore()">Read more!</span></p>
+                    <p><span id="readMoreSpan" onclick="readMore()">Read more!</span></p>
+                    <span class="pe-4" id="ShareText">Share</span>
+                    <span class="SocialButtons">
+                    <a href="#Facebook"><img alt="Facebook" class="img-fluid pe-4" src="./Images/Facebook.png"></a>
+                    <a href="#Google"><img alt="Google" class="img-fluid pe-4" src="./Images/Google.png"></a>
+                    <a href="#Twitter"><img alt="Twitter" class="img-fluid pe-4" src="./Images/Twitter.png"></a>
+                    <a href="#Pinterest"><img alt="Pinterest" class="img-fluid" src="./Images/Pinterest.png"></a>
+                    </span>
+                </div>
+            </div>
+            <nav class="mt-5">
+                <div class="nav nav-tabs CenterFlexMenu" id="nav-tab" role="tablist">
+                    <button aria-controls="DescriptionMenu" aria-selected="true" class="nav-link active"
+                            data-bs-target="#DescriptionMenu"
+                            data-bs-toggle="tab" id="DescriptionMenu-tab" role="tab" type="button">Description
+                    </button>
+                    <button aria-controls="AdditionalMenuTab" aria-selected="false" class="nav-link"
+                            data-bs-target="#AdditionalMenuTab"
+                            data-bs-toggle="tab" id="AdditionalMenuTab-tab" role="tab" type="button">Additional
+                        Information
+                    </button>
+                    <button aria-controls="ContactMenu" aria-selected="false" class="nav-link"
+                            data-bs-target="#ContactMenu"
+                            data-bs-toggle="tab" id="ContactMenu-tab" role="tab" type="button">Reviews (3)
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div aria-labelledby="DescriptionMenu-tab" class="AdditionalTabs tab-pane fade show active" id="DescriptionMenu" role="tabpanel">
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.
+                </div>
+                <div aria-labelledby="AdditionalMenuTab-tab" class="AdditionalTabs tab-pane fade" id="AdditionalMenuTab" role="tabpanel">
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                    felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+                    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                </div>
+                <div aria-labelledby="ContactMenu-tab" class="AdditionalTabs tab-pane fade" id="ContactMenu" role="tabpanel">
+                    In enim justo, rhoncus ut, imperdiet
+                    a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+                    dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+                    porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                    rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+                    adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam
+                    quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
+                    nibh.</div>
+            </div>
+        </div>
+        <div class="pb-5">
+            <div class="ProductsTitle pt-5">Popular</div>
+            <div class="row row-cols-1 row-cols-md-4 mx-5">
+                <div class="col mt-3">
+                    <div class="ProductCard card text-center h-100">
+                        <img alt="" class="card-img-top" src="./Images/Popular_1.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Kristina Dam Oak Table With White Marble Top</h5>
+                            <p class="card-text">$ 799.55</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="ProductCard card text-center h-100">
+                        <img alt="" class="card-img-top" src="./Images/Popular_2.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Hay - About A Lounge Chair AAL 93</h5>
+                            <p class="card-text">$ 659.55</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="ProductCard card text-center h-100">
+                        <img alt="" class="card-img-top" src="./Images/Popular_3.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Activate Facial Mask and Charcoal Soap</h5>
+                            <p class="card-text">$ 129.55</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="ProductCard card text-center h-100">
+                        <img alt="" class="card-img-top" src="./Images/Popular_4.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Cocktail Table Walnut | YES</h5>
+                            <p class="card-text">$ 299.99</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <img alt="Services" class="mw-100" src="./Images/Services.png">
     </div>
 </div>
 <div id="footer"></div>
