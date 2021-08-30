@@ -16,7 +16,6 @@
     height: 14px;
 }
 
-
 .passwordFlex {
     display: flex;
 }
@@ -32,7 +31,6 @@
     line-height: 3.583;
     text-align: center;
 }
-
 
 .modal-body > button {
     width: 170px;

@@ -101,6 +101,48 @@ a:visited {
     text-align: left;
 }
 
+.CardButton {
+    text-align: left;
+}
+
+.CardButton > input {
+    width: 152px;
+    height: 42px;
+}
+
+.CardButton > button {
+    width: 152px;
+    height: 42px;
+    border-radius: 18px;
+    color: #FFFFFF;
+    background-color: #84BC22;
+}
+
+.CardButton > select {
+    width: 152px;
+    height: 42px;
+}
+
+#readMore {
+    display: none;
+}
+
+#readMoreSpan {
+    font-size: 18px;
+    font-family: "Lato";
+    color: #84BC22FF;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#readMoreText {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #45413EFF;
+    line-height: 1.5;
+    text-align: left;
+}
+
 
 
 
