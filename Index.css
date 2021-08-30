@@ -7,14 +7,14 @@
     background-color: #262A32;
 }
 
-#PlusHoverButton {
+.PlusHoverButton {
     display: none;
     top: 96px;
     left: 24px;
     position: absolute;
 }
 
-#HeartHoverButton {
+.HeartHoverButton {
     display: none;
     top: 96px;
     right: 24px;
@@ -82,11 +82,19 @@
     width: 230px;
 }
 
-.ProductCard:hover > .card-body > #PlusHoverButton {
+.ProductCard:hover > .card-body {
+    opacity: 0.1;
+}
+
+.ProductCard:hover > .card-img-top {
+    opacity: 0.1;
+}
+
+.ProductCard:hover > .PlusHoverButton {
     display: block;
 }
 
-.ProductCard:hover > .card-body > #HeartHoverButton {
+.ProductCard:hover > .HeartHoverButton {
     display: block;
 }
 
