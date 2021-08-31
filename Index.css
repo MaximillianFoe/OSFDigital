@@ -46,26 +46,23 @@
 
 }
 
-.BigWhiteText {
-    font-size: 48px;
-    color: #FFFFFF;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-}
-
 .SummerText {
     font-size: 13px;
 }
 
-.SmalllerText {
-    font-size: 16px;
+.BigTextOverImage {
+    font-size: 36px;
     color: #FFFFFF;
+    font-weight: bold;
     line-height: 1.2;
-    text-align: left;
+    top: 48px;
+    position: absolute;
 }
 
-.TextOverImage {
+.SmallTextOverImage {
+    color: #FFFFFF;
+    line-height: 1.2;
+    top: 256px;
     position: absolute;
 }
 
@@ -146,6 +143,20 @@
     color: #FFFFFF;
     line-height: 1.2;
     text-align: center;
+}
+
+.carousel {
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .PopularItems {
+        font-size: 24px;
+    }
+    .FeaturedLogo {
+        font-size: 24px;
+    }
 }
 
 
