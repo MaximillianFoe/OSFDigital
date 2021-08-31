@@ -12,6 +12,7 @@
     top: 96px;
     left: 24px;
     position: absolute;
+    z-index: 9999;
 }
 
 .HeartHoverButton {
@@ -19,6 +20,7 @@
     top: 96px;
     right: 24px;
     position: absolute;
+    z-index: 9999;
 }
 
 #LoadMoreButton {
