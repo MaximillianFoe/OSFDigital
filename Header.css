@@ -24,6 +24,18 @@
     flex: 1;
 }
 
+#LoginIcon:hover {
+    cursor: pointer;
+}
+
+#FavoriteItems:hover {
+    cursor: not-allowed; /* Since I did not implement favorite item list yet. */
+}
+
+#ShoppingCart:hover {
+    cursor: not-allowed; /* Since I did not implement cart yet. */
+}
+
 .BottomLogin {
     font-size: 12px;
     font-family: "Lato";
