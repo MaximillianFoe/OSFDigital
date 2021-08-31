@@ -23,6 +23,18 @@
     z-index: 9999;
 }
 
+.PlusHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.HeartHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 #LoadMoreButton {
     width: 264px;
     height: 38px;

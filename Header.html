@@ -20,8 +20,8 @@
 <div class="HeaderScreen border-bottom">
     <div class="HeaderMargin">
         <nav class="navbar navbar-light navbar-expand-lg" id="OSFHeader">
-            <button aria-controls="mainNav" aria-expanded="false" aria-label="Toggle Navigation" class="navbar-toggler"
-                    data-target="#mainNav" data-toggle="collapse" type="button">
+            <button aria-controls="mainNav" aria-expanded="false" aria-label="Navigation" class="navbar-toggler"
+                    data-bs-target="#mainNav" data-bs-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="ms-2 me-3"><a class="navbar-brand" href="./Index.html"><img alt="OSF Academy"
@@ -36,7 +36,7 @@
                         </a>
                         <div class="dropdown-menu MegaMenu" role="menu">
                             <div class="row">
-                                <div class="DropdownBoldText col-2 ms-3">
+                                <div class="DropdownBoldText col-sm-2">
                                     <div class="mt-3"><p>Product Categories</p></div>
 
                                     <div class="DropdownSmallerText">
@@ -52,7 +52,7 @@
                                         <a href="./404.html"><p>Food</p></a>
                                     </div>
                                 </div>
-                                <div class="DropdownSmallerText col-2">
+                                <div class="DropdownSmallerText col-sm-2">
                                     <a href="./404.html">
                                         <div class="pt-5"><p>Gadgets</p></div>
                                     </a>
@@ -64,7 +64,7 @@
                                     <a href="./404.html"><p>Men's Fashion</p></a>
                                     <a href="./404.html"><p>Mobile</p></a>
                                 </div>
-                                <div class="DropdownSmallerText col-2">
+                                <div class="DropdownSmallerText col-sm-2">
                                     <a href="./404.html">
                                         <div class="pt-5"><p>Motorcycles</p></div>
                                     </a>
@@ -76,7 +76,7 @@
                                     <a href="./404.html"><p>Sport</p></a>
                                     <a href="./404.html"><p>Toys</p></a>
                                 </div>
-                                <div class="DropdownBoldText col-2">
+                                <div class="DropdownBoldText col-sm-2">
                                     <div class="mt-3"><p>Sale</p></div>
                                     <div class="DropdownSmallerText">
                                         <a href="./404.html">
@@ -91,7 +91,7 @@
                                         <a href="./404.html"><p>Food</p></a>
                                     </div>
                                 </div>
-                                <div class="DropdownCenterImage col">
+                                <div class="DropdownCenterImage col-sm">
                                     <img alt="" src="./Images/DropdownBanner.png">
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
                     </li>
 
                     <li class="nav-item mx-4">
-                        <img data-bs-toggle="modal" data-bs-target="#LoginForm" alt="User" src="Images/User.png">
+                        <img alt="User" data-bs-target="#LoginForm" data-bs-toggle="modal" src="Images/User.png">
                     </li>
 
                     <li class="nav-item mx-4">
@@ -146,29 +146,30 @@
         </nav>
     </div>
 
-    <div class="modal" tabindex="-1" id="LoginForm">
+    <div class="modal" id="LoginForm" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body text-center">
                     <p class="SignText text-center mt-4">Sign in</p>
                     <div class="SmallLoginText mb-3">
-                        <label for="emailForm" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp">
+                        <label class="form-label" for="emailForm">Email address</label>
+                        <input aria-describedby="emailHelp" class="form-control" id="emailForm" type="email">
                         <small class="text-muted">
                             We'll never share your email with anyone else.
                         </small>
                     </div>
                     <div class="SmallLoginText mb-3">
-                        <label for="passwordForm" class="form-label">Password</label>
+                        <label class="form-label" for="passwordForm">Password</label>
                         <div class="passwordFlex">
-                            <input type="password" class="form-control inputField" id="passwordForm">
-                            <img class="passwordToggle" src="./Images/PasswordToggle.png" onclick="showPassword()" alt="">
+                            <input class="form-control inputField" id="passwordForm" type="password">
+                            <img alt="" class="passwordToggle" onclick="showPassword()"
+                                 src="./Images/PasswordToggle.png">
                         </div>
                         <small class="text-muted">
                             At least 6 characters length, contain 1 numeric, 1 uppercase letter, 1 special character.
                         </small>
                     </div>
-                    <button type="button" class="btn align-content-center mb-2">Login</button>
+                    <button class="btn align-content-center mb-2" type="button">Login</button>
                     <p class="BottomLogin mb-2">I don't have an account</p>
                 </div>
             </div>
