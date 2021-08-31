@@ -110,3 +110,12 @@ a:visited {
     border-left-style: none;
     outline: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .ExtraBold {
+        font-size: 64px;
+    }
+    .Huge404 {
+        font-size: 24px;
+    }
+}

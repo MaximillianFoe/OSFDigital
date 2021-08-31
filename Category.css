@@ -179,6 +179,20 @@ a:visited {
     background-color: #34C97B;
 }
 
+.PlusHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.HeartHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 #LeftArrow {
     padding-right: 250px;
 }
