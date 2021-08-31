@@ -92,3 +92,123 @@ a:visited {
     background-color: #FFFFFF;
     width: 230px;
 }
+
+.FeaturedLogo {
+    font-size: 48px;
+    font-family: "Lato";
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.FeaturedText {
+    font-size: 18px;
+    font-family: "Lato";
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.FeatureProducts {
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.Products {
+    background-color: #262A32;
+}
+
+#LoadMoreButton {
+    width: 128px;
+    height: 42px;
+    border-radius: 24px;
+    border-width: 2px;
+    color: #E4DED3;
+    background-color: #84BC22;
+
+}
+
+.PlusHoverButton {
+    display: none;
+    top: 96px;
+    left: 24px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.HeartHoverButton {
+    display: none;
+    top: 96px;
+    right: 24px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.PlusHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.HeartHoverButton:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.ProductCard:hover > .card-body {
+    opacity: 0.1;
+}
+
+.ProductCard:hover > .card-img-top {
+    opacity: 0.1;
+}
+
+.ProductCard:hover > .PlusHoverButton {
+    display: block;
+}
+
+.ProductCard:hover > .HeartHoverButton {
+    display: block;
+}
+
+.ProductCard:hover {
+    background-color: #34C97B;
+}
+
+#LeftArrow {
+    padding-right: 250px;
+}
+
+#RightArrow {
+    padding-left: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .FeaturedLogo {
+        font-size: 24px;
+    }
+}
+
+.Blue {
+    background-color: #ADD8E6;
+    color: #000000;
+}
+
+.Red {
+    background-color: #E20A0A;
+    color: #ffffff;
+}
+
+.Green {
+    background-color: #3CB371;
+    color: #ffffff;
+}
+
+.Yellow {
+    background-color: #FAFAD2;
+    color: #000000;
+}

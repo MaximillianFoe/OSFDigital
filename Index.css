@@ -150,6 +150,20 @@
     overflow: hidden;
 }
 
+.MessageBox {
+    opacity: 0.8;
+    border-radius: 6px;
+    background-image: linear-gradient(#675B99FF, #DC5987FF);
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #FFFFFF;
+}
+
+#MessageText {
+    padding-top: 176px;
+}
+
 @media only screen and (max-width: 600px) {
     .PopularItems {
         font-size: 24px;
